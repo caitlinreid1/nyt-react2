@@ -7,7 +7,10 @@ class Results extends Component {
     return (
       <div>
         <div className="Results">      
-          <p > your results</p>
+          <div>
+            Results
+          </div>
+
         </div>
           <div>
             <Recent />

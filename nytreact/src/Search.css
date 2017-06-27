@@ -43,6 +43,9 @@ input[type=submit] {
     cursor: pointer;
     font-size:14px;
 }
+.searchTitle {
+    padding-bottom: 10px;
+}
 
 .searchText {
 	width: 55%;
