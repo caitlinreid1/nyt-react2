@@ -7,7 +7,15 @@ class Search extends React.Component {
     return (
     	<div>
 	      <div className="Search">
-	      	<p> Search for articles </p>
+
+	      	<h3> Search for articles </h3>
+	      	<form action="" method="get">
+		      	<p>Topic</p> <input type="text" className="searchText" />
+
+		      	<p>Start Year</p><input type="text" className="year" />
+			    <p>End Year</p><input type="text" className="year" />
+			    <input type="submit" value="Submit" />
+	      	</form>
 	      </div>
 
 
