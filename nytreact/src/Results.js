@@ -5,13 +5,13 @@ import './Results.css';
 class Results extends Component {
   render() {
     return (
-      <div className="">      
-        <p> your results</p>
-
-        <div>
-          Recent: <Recent />
+      <div>
+        <div className="Results">      
+          <p> your results</p>
         </div>
-
+          <div>
+            <Recent />
+          </div>
       </div>
     );
   }

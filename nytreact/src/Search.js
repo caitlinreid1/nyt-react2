@@ -5,12 +5,18 @@ import './Search.css';
 class Search extends React.Component {
   render() {
     return (
-      <div>
-      	<p> Search for articles </p>
-      	<div> 
-      		Results: <Results />
-      	</div>
-      </div>
+    	<div>
+	      <div className="Search">
+	      	<p> Search for articles </p>
+	      </div>
+
+
+
+	      	<div> 
+	      		<Results />
+	      	</div>
+	      
+	    </div>
     );
   }
 }

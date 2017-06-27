@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import './Search.css';
+import './Recent.css';
 
 class Recent extends React.Component {
   render() {
     return (
       <div>
-      	<div> 
+      	<div className="Recent"> 
       		<p> your recent articles </p>
       	</div>
       </div>

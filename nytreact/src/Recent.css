@@ -1,12 +1,5 @@
-p {
-	font: black;
-	text-align: center;
-	float: center;
-}
-
-.Search {
+.Recent {
 	width: 800px;
-
 	border: 1px solid black;
 	margin: 25px auto;
 	padding: 25px;

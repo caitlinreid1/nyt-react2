@@ -16,7 +16,7 @@ class App extends React.Component {
           <img src={nyt} className="App-logo" alt="logo" />     
         </div>
         <div> 
-          Search : <Search />
+          <Search />
         </div>
       </div>
     );
