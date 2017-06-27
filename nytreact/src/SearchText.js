@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import Results from './Results';
+
 import TextField from 'material-ui/TextField';
 import FlatButton from 'material-ui/FlatButton';
 
@@ -24,6 +25,7 @@ export default class SearchText extends React.Component {
 			  	/>
 			</form>
 		    <br />
+		    <Results />
 		  </div>
 		)
 	}

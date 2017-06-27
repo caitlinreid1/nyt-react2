@@ -1,8 +1,14 @@
 .Results {
-	width: 60%;
-	margin-left: 280px;
+	width: 100%;
+	/*margin-left: 280px;*/
 	border: 1px solid black;
 	/*margin: 25px auto;*/
 	margin-top: 25px;
 	padding: 25px;	
+}
+
+.storyMeta {
+  	float: left;
+  	font-size: 11px;
+  	color: grey;
 }
