@@ -1,0 +1,35 @@
+.text {
+	float: left;
+	/*margin-top: 20px;*/
+	margin-left: 300px;
+}
+
+.textDiv {
+	width: 85% !important;
+	float:left;
+}
+
+@media (max-width: 964px) {
+  .textDiv {
+  	width: 60% !important;
+  }
+}
+
+.button {
+	/*float:right;*/
+	/*margin-right: 300px;*/
+	margin-top: 10px !important;
+	font-size: 18px;
+	margin: 10px
+}
+
+.div {
+	padding-top: 25px;
+	margin-left: 300px;
+	margin-right: 8%;
+}
+
+input [type=text] {
+	margin-left: 300px;
+	float:left;
+}

@@ -2,36 +2,45 @@ p {
 	font: black;
 	text-align: left;
 	float: center;
+	font-family: Helvetica;
 }
 
-h3 {
+h6 {
+	font-size: 20px;
+	font-style: bold;
+	font-weight: 500;
+}
+
+.navbar {
 	text-align: left;
+	padding-left: 35px;
+	padding-right: 35px;
 }
 
 .Search {
-	width: 800px;
+	width: 970px;
 	border: 1px solid black;
 	margin: 25px auto;
-	padding: 25px;
+	padding: 0 25px 25 25;
+}
+.searchLogo {
+	width: 200px;
+}
+
+.searchHeader {
+	background-color: black;
+	height: 100px;
 }
 
 form {
 	text-align: left
 }
 
-input[type=text], select {
-    /*width: 100%;*/
-    /*padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;*/
-    border: none;
-    border-bottom: 2px solid #544949;
+.field {
+	width: 90%;
 }
 
-input[type=submit] {
+/*input[type=submit] {
     width: 55%;
     background-color: #4CAF50;
     color: white;
@@ -42,20 +51,40 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
     font-size:14px;
-}
+}*/
 .searchTitle {
     padding-bottom: 10px;
+    text-align: left;
+    background-color: grey;
 }
 
 .searchText {
-	width: 55%;
+	width: 55% !important;
 	/*padding-right: 20px;*/
 }
 
+@media (max-width: 964px) {
+  .searchText {
+  	margin: 0 auto;
+  	margin-left: 300px;
+  }
+}
 .year {
 	width: 55%;
+	width: 55% !important;
 }
 
-input[type=submit]:hover {
+/* side nav */
+/*input[type=submit]:hover {
     background-color: #45a049;
-}
+}*/
+
+header, main, footer {
+      padding-left: 300px;
+    }
+
+    @media only screen and (max-width : 992px) {
+      header, main, footer {
+        padding-left: 0;
+      }
+    }

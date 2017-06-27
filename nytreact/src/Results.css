@@ -1,6 +1,8 @@
 .Results {
-	width: 800px;
+	width: 60%;
+	margin-left: 280px;
 	border: 1px solid black;
-	margin: 25px auto;
-	padding: 25px;
+	/*margin: 25px auto;*/
+	margin-top: 25px;
+	padding: 25px;	
 }
