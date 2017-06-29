@@ -4,6 +4,7 @@ import SearchText from './SearchText';
 import Search from './Search';
 import favorite from './white.svg'
 import './App.css';
+// import favicon from '../public'
 
 
 // <img src={tlogo} className="App-logo" alt="logo" /> 
