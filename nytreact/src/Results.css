@@ -4,11 +4,23 @@
 	border: 1px solid black;
 	/*margin: 25px auto;*/
 	margin-top: 25px;
-	padding: 25px;	
+	padding: 25px;
+	overflow: auto	
 }
 
 .storyMeta {
   	float: left;
   	font-size: 11px;
   	color: grey;
+}
+
+.story {
+	width: 80%;
+	float: left;
+}
+
+.favorite {
+	width: 15%;
+	float:right;
+	padding: 50px;
 }

@@ -20,7 +20,10 @@
 
 .searchText {
   margin: 0 auto;
+  float: left;
+  padding-left: 47%;
 }
+
 
 .App-intro {
   font-size: large;
@@ -29,4 +32,16 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.faveButton {
+  float:right;
+  padding-top: 17px;
+  padding-right: 17px;
+}
+
+.faveText {
+  color: white;
+  margin-top: 0;
+  font-size: 9px;
 }

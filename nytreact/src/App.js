@@ -1,14 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import SearchText from './SearchText';
 import Search from './Search';
-// import Results from './Results';
-import tlogo from './t_logo.png';
+import favorite from './white.svg'
 import './App.css';
 
-// import Results from './Results';
-// import Recent from './Recent';
 
 // <img src={tlogo} className="App-logo" alt="logo" /> 
 
@@ -21,6 +17,12 @@ class App extends React.Component {
           <div className="searchText">
             <h4> Search</h4>
           </div>
+            <div className="faveButton">
+              <img src={favorite} alt="favorite-articles" className="favoriteLink"/>
+              
+            </div>
+          
+          
         </div>
         <div> 
           <MuiThemeProvider>
