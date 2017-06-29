@@ -15,7 +15,7 @@ export default class SearchText extends React.Component {
 		  	  <div className="textDiv">		  	
 			  	<input 
 			  	  type="text" 
-			  	  value=""
+			  	  id="searchTerm"
 			  	  onChange=""
 			  	/>
 			  </div>
