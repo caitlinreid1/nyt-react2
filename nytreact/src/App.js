@@ -4,8 +4,6 @@ import SearchText from './SearchText';
 import Search from './Search';
 import favorite from './white.svg'
 import './App.css';
-// import favicon from '../public'
-
 
 // <img src={tlogo} className="App-logo" alt="logo" /> 
 
@@ -20,10 +18,7 @@ class App extends React.Component {
           </div>
             <div className="faveButton">
               <img src={favorite} alt="favorite-articles" className="favoriteLink"/>
-              
-            </div>
-          
-          
+            </div>   
         </div>
         <div> 
           <MuiThemeProvider>
